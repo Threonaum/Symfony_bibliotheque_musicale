@@ -3,3 +3,18 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+
+
+
+index :
+    path: /index
+    controller: App\Controller\IndexController::index
+
+artistes :
+    path: /artistes
+    controller: App\Controller\ArtistesController::index
+
+Connexion :
+    path: /connexion
+    controller: App\Controller\ConnexionController::index
